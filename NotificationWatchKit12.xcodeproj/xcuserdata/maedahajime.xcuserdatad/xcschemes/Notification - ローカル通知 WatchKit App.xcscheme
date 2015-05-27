@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "0630"
+   version = "2.0">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "427998341B156AD40088E2E8"
+               BuildableName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App.app"
+               BlueprintName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App"
+               ReferencedContainer = "container:NotificationWatchKit12.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "427998251B156AD40088E2E8"
+               BuildableName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit Extension.appex"
+               BlueprintName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit Extension"
+               ReferencedContainer = "container:NotificationWatchKit12.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "427997F81B155FA90088E2E8"
+               BuildableName = "NotificationWatchKit12.app"
+               BlueprintName = "NotificationWatchKit12"
+               ReferencedContainer = "container:NotificationWatchKit12.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      buildConfiguration = "Debug">
+      <Testables>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "427998341B156AD40088E2E8"
+            BuildableName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App.app"
+            BlueprintName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App"
+            ReferencedContainer = "container:NotificationWatchKit12.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </TestAction>
+   <LaunchAction
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5;">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "427998341B156AD40088E2E8"
+            BuildableName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App.app"
+            BlueprintName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App"
+            ReferencedContainer = "container:NotificationWatchKit12.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "427998341B156AD40088E2E8"
+            BuildableName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App.app"
+            BlueprintName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App"
+            ReferencedContainer = "container:NotificationWatchKit12.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Release"
+      debugDocumentVersioning = "YES"
+      launchAutomaticallySubstyle = "8"
+      notificationPayloadFile = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit Extension/PushNotificationPayload.apns">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5;">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "427998341B156AD40088E2E8"
+            BuildableName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App.app"
+            BlueprintName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App"
+            ReferencedContainer = "container:NotificationWatchKit12.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "427998341B156AD40088E2E8"
+            BuildableName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App.app"
+            BlueprintName = "&#x30ed;&#x30fc;&#x30ab;&#x30eb;&#x901a;&#x77e5; WatchKit App"
+            ReferencedContainer = "container:NotificationWatchKit12.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

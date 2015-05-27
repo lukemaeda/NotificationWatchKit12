@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XiJ-yb-z6h">
+                                <rect key="frame" x="161" y="166" width="278" height="37"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="278" id="K4L-lZ-oyg"/>
+                                    <constraint firstAttribute="height" constant="37" id="tsX-ii-m5V"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="ローカル通知開始">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="StartbtnAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qKN-dg-YkQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="メッセージ" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="stU-aI-rdj">
+                                <rect key="frame" x="16" y="44" width="568" height="105"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="105" id="8Ig-lR-fyk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="0.40000000596046448" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DRN-X2-mgs">
+                                <rect key="frame" x="161" y="221" width="278" height="48"/>
+                                <color key="backgroundColor" red="1" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="ローカル通知停止">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="StopbtnAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="5uF-pq-34K"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ios_512x512" translatesAutoresizingMaskIntoConstraints="NO" id="uFb-RN-3rW">
+                                <rect key="frame" x="172" y="289" width="256" height="256"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="stU-aI-rdj" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="0MG-Cb-kJM"/>
+                            <constraint firstItem="DRN-X2-mgs" firstAttribute="trailing" secondItem="XiJ-yb-z6h" secondAttribute="trailing" id="4lT-le-FQz"/>
+                            <constraint firstItem="uFb-RN-3rW" firstAttribute="top" secondItem="DRN-X2-mgs" secondAttribute="bottom" constant="20" id="6gE-x1-IM5"/>
+                            <constraint firstItem="DRN-X2-mgs" firstAttribute="leading" secondItem="XiJ-yb-z6h" secondAttribute="leading" id="Klf-8d-SXR"/>
+                            <constraint firstItem="XiJ-yb-z6h" firstAttribute="top" secondItem="stU-aI-rdj" secondAttribute="bottom" constant="17" id="NDA-CI-lZZ"/>
+                            <constraint firstItem="stU-aI-rdj" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="S9o-vT-3BN"/>
+                            <constraint firstItem="XiJ-yb-z6h" firstAttribute="centerX" secondItem="stU-aI-rdj" secondAttribute="centerX" id="SAG-ih-Kw3"/>
+                            <constraint firstItem="DRN-X2-mgs" firstAttribute="top" secondItem="XiJ-yb-z6h" secondAttribute="bottom" constant="18" id="eW3-W3-ysX"/>
+                            <constraint firstItem="DRN-X2-mgs" firstAttribute="centerX" secondItem="uFb-RN-3rW" secondAttribute="centerX" id="vEl-b9-v18"/>
+                            <constraint firstItem="stU-aI-rdj" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="24" id="ycW-fg-Nn0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="stU-aI-rdj" id="Oqk-rv-ikk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ios_512x512" width="256" height="256"/>
+    </resources>
+</document>

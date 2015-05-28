@@ -79,7 +79,7 @@
     localNotification.alertTitle = @"[セミナーのご案内]";
     
     // メッセージを設定する（Apple Watch）
-    [localNotification setAlertBody:@"大阪心斎橋Appleセンターで開催します。日時は、６月１日予定しております"];
+    [localNotification setAlertBody:@"大阪心斎橋Bppleセンターで開催します。"];
     
     // 特定できるようにキーを設定する
     [localNotification setUserInfo:[NSDictionary  dictionaryWithObject:@"1" forKey:@"NOTIF_KEY"]];
